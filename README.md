@@ -26,13 +26,13 @@ how to use :
 ```
 <div mx-switchbox></div>
 ```
-3.1 - you can bing the switchox state to a model
+3.1 - you can bind the switchox state to a model
 ```
 // for example you have a model like that :
 myModel = {
 booleanData : true;
 };
 
-// you can bind with switched attribute :
+// you can now bind with switched attribute :
 <div mx-switchbox switched="myModel.booleanData"></div>
 ```
