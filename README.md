@@ -9,6 +9,7 @@ I think developping a Polymer version soon
 
 
 how to use :
+
 1 - load js in your html :
 ```
 <script src="js/mx/mxSwitchbox.js"></script>
