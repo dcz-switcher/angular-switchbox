@@ -10,22 +10,28 @@ I think developping a Polymer version soon
 
 how to use :
 1 - load js in your html :
+```
 <script src="js/mx/mxSwitchbox.js"></script>
-
+```
 2 - add the module to your application module
+```
 <script>
 (function () {
     var MyApplication = angular.module('MyApplication', ['mx']);
 }());
 </script>
-
+```
 3 - use it in html
+```
 <div mx-switchbox></div>
-
+```
 3.1 - you can bing the switchox state to a model
+```
 // for example you have a model like that :
 myModel = {
 booleanData : true;
 };
+
 // you can bind with switched attribute :
 <div mx-switchbox switched="myModel.booleanData"></div>
+```
