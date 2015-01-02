@@ -7,9 +7,8 @@ For my needs, I have to support ie8, so I choose the simpliest way and use a bas
 
 I think developping a Polymer version soon
 
-result :
 
-![](https://github.com/dcz-switcher/angular-switchbox/blob/master/switchbox.svg)
+[example](http://dcz-switcher.github.io/)
 
 
 how to use :
