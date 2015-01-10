@@ -36,6 +36,7 @@ angular.module('mx', []).directive('mxSwitchbox', [function () {
         },
         link : function (scope, element, attrs) {
             scope.$watch('switched', function (newVal, oldVal) {
+                scope.switched = (scope.switched == 1) ? true : false;
                 scope.inputCheckbox = (newVal === undefined || newVal == false) ? false : true;
             });
         }
