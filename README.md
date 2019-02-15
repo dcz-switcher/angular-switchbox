@@ -14,11 +14,11 @@ I think developping a Polymer version soon
 how to use :
 
 1 - load js in your html :
-```
+```javascript
 <script src="js/mx/mxSwitchbox.js"></script>
 ```
 2 - add the 'mx' module to your application module
-```
+```javascript
 <script>
 (function () {
     var myApplication = angular.module('MyApplication', ['mx']);
@@ -26,14 +26,14 @@ how to use :
 </script>
 ```
 3 - use it in html
-```
+```javascript
 // for example you want to bind to the boolean value isShiny in your controller :
 myApplication.controller('MyController', [function () {
-this.isShiny = true;
+    this.isShiny = true;
 }]);
 
 // you can bind with switched attribute :
 <div ng-controller="MyController as myCtrl">
-<div mx-switchbox switched="myCtrl.isShiny"></div>
+    <div mx-switchbox switched="myCtrl.isShiny"></div>
 </div>
 ```
